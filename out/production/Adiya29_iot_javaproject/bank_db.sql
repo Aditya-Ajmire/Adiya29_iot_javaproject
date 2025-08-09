@@ -18,7 +18,8 @@ CREATE TABLE IF NOT EXISTS Accounts (
 );
 
 INSERT INTO user (full_name, email, password) VALUES
-('Adi Ajmire', 'adi@example.com', 'password123');
+('Adi', 'adi@example.com', 'password');
 
 INSERT INTO Accounts (account_number, full_name, email, balance, security_pin) VALUES
-(10000100, 'Adi Ajmire', 'adi@example.com', 10000.0, '1234');
+(10000100, 'Adi', 'adi@example.com', 10000.0, '1234');
+
